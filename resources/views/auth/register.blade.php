@@ -13,6 +13,7 @@
 </header>
 <article class="card-body">
 <form action="{{env('APP_URL')}}/register" method="POST">
+    @csrf
 	<div class="form-row">
 		<div class="col form-group">
 			<label>First name </label>
